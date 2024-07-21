@@ -7,7 +7,7 @@ terraform {
     }
   }
 }
-resource "azurerm_storage_account" "securestorage" {
+resource "azurerm_storage_account" "securestorage2" {
   resource_group_name           = var.resource_group_name
   location                      = var.location
   name                          = var.storage_account_name
